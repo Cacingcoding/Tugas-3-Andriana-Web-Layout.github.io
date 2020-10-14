@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://://fonts.googleapis.com/css2?family=Commissioner&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,9 +8,9 @@
     margin: 0 auto;
 }
 
-.bagianAtas {
+.bagAtas {
     margin-top: 100px;
-    background-color: #E4FAFF;
+    background-color: rgb(212, 212, 212) ;
     display: flex;
 }
 
@@ -26,7 +26,7 @@
 
 .kiri hr{
    height: 7px;
-   background-color: #68E1FD;
+   background-color: rgb(128, 128, 128) ;;
    border: none;
    margin: none;
 }
@@ -56,46 +56,46 @@
     margin: auto;
 }
 
-/* Bagian Tengah */
+/* Bag_Tengah */
 
-#bagianTengah {
+#bagTengah {
     font-family: 'Roboto', sans-serif;;
     display: flex;
     padding: 40px 40px 10px 40px;
 }
 
-#bagianTengah .satu {
+#bagTengah .satu {
     float: left;
     margin: auto;
     margin-right: 5px;
-    background-color:  #E8A825;
+    background-color: rgb(212, 212, 212) ;;
     width: 200px;
     height: 1px;
     border: none;
 }
 
 
-#bagianTengah .dua {
+#bagTengah .dua {
     float: left;
     margin: auto;
     margin-left: 5px;
-    background-color:  #E8A825;
+    background-color: rgb(212, 212, 212) ;;
     width: 200px;
     border: none;
     height: 1px;
 }
 
 
-#bagianTengah p {
+#bagTengah p {
     float: left;
     font-size: 30px;
-    color: #68E1FD;
+    color: black;
     font-weight: bold;
 }
 
-/* Bagian Bawah */
+/* Bag_Bawah */
 
-#bagianBawah {
+#bagBawah {
     background-color: white;
     font-family: 'Roboto', sans-serif;;
     /* position: relative; */
@@ -104,13 +104,25 @@
     height: 50px;
 }
 
+.rowKiri img, .rowTengah img, .rowKanan img {
+    width: 150px;
+    height: 100px;
+}
+
 .rowKiri, .rowTengah, .rowKanan {
     width: 500px;
 }
 
-#bagianBawah img {
+#bagBawah img {
     display: block;
     margin: 0 auto;
+}
+
+.isi {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 80px;
+
 }
 
 .judul {
@@ -118,13 +130,7 @@
     font-size: 30px;
 }
 
-.isi {
-    font-size: 12px;
-    text-align: center;
-    padding: 10px 80px;
-}
-
 .latarbelakang {
-    background-color: #E4FAFF;
-    height: 190px;
+    background-color: rgb(212, 212, 212) ;
+    height: 250px;
 }
